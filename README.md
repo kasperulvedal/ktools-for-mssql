@@ -9,15 +9,6 @@ These tools are designed to help data engineers, BI developers, and DBAs manage 
 
 ## 📦 Modules
 
-### ✅ [kbulk](./kbulk/)
-A metadata-driven **bulk insert framework** for structured ingestion of CSV files from Azure Blob Storage using `BULK INSERT`.
-
-Includes:
-- Metadata table for registered files
-- Truncate logic
-- Format file support
-- Stored procedures to run single or all file loads
-
 ### 🚀 [klog](./klog/)
 A **procedure execution logger** that tracks run time, row changes, and job status at the table level.
 
