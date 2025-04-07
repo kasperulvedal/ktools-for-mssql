@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ktools for MSSQL
 
 **ktools for MSSQL** is a collection of lightweight, modular tools written in T-SQL for Microsoft SQL Server and Azure SQL.  
