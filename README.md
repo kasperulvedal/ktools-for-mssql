@@ -5,8 +5,6 @@ These tools are designed to help data engineers, BI developers, and DBAs manage 
 
 > Think of it as your minimalist utility belt for SQL Server.
 
----
-
 ## 📦 Modules
 
 ### 🚀 [klog](./klog/)
@@ -18,7 +16,6 @@ Includes:
 - View with durations and delta row counts
 - Useful for troubleshooting, monitoring, and auditing data jobs
 
----
 
 ## 🛠 Getting Started
 
@@ -32,8 +29,6 @@ Just clone this repo and run what you need — you can adopt one or all modules 
 git clone https://github.com/youruser/ktools-for-mssql.git
 ```
 
----
-
 ## 📌 Design Philosophy
 
 - ⚙️ **Pure SQL**: No CLR, no external dependencies, no custom runtimes
@@ -41,18 +36,12 @@ git clone https://github.com/youruser/ktools-for-mssql.git
 - 🪟 **Azure-Ready**: Optimized for use in Azure SQL Database
 - 🧪 **Production-Ready**: Built for logging, maintenance, and observability
 
----
 
 ## 📜 License
 
 This project is licensed under the [MIT License](./LICENSE). Use freely.
 
----
-
 ## 🤝 Contributing
 
 We welcome suggestions and contributions!  
 See [CONTRIBUTING.md](./CONTRIBUTING.md) to get started.
-=======
-# ktools-for-mssql
-Modular SQL Server toolkit for logging, bulk insert, and lightweight data warehousing. Built in pure T-SQL for Azure SQL and beyond.
