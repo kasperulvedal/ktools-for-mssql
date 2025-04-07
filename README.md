@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ktools for MSSQL
 
 **ktools for MSSQL** is a collection of lightweight, modular tools written in T-SQL for Microsoft SQL Server and Azure SQL.  
@@ -70,3 +71,7 @@ This project is licensed under the [MIT License](./LICENSE). Use freely.
 
 We welcome suggestions and contributions!  
 See [CONTRIBUTING.md](./CONTRIBUTING.md) to get started.
+=======
+# ktools-for-mssql
+Modular SQL Server toolkit for logging, bulk insert, and lightweight data warehousing. Built in pure T-SQL for Azure SQL and beyond.
+>>>>>>> origin/main
