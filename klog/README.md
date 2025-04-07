@@ -4,8 +4,6 @@
 `klog` is a pure T-SQL module for logging the execution of stored procedures at the table level in Microsoft SQL Server and Azure SQL.  
 It is part of the [ktools for MSSQL](../README.md) collection.
 
----
-
 ## 🔍 Purpose
 
 The goal of `klog` is to help you **monitor and troubleshoot SQL jobs** by tracking:
@@ -21,7 +19,6 @@ This helps identify:
 - If data volumes have changed unexpectedly
 - Where errors occur during scheduled loads
 
----
 
 ## 📦 Components
 
@@ -33,7 +30,6 @@ This helps identify:
 | `klog.vw_execution_log`      | View       | Shows recent executions with duration and row delta    |
 | `klog.cleanup_stale_executions` | Procedure  | Removes log entries that were marked as running but no longer active |
 
----
 
 ## 🛠 Setup
 
@@ -44,8 +40,6 @@ This will:
 - Set up the `execution_log` table to store procedure execution data.
 - Create the `start_execution` and `end_execution` procedures to manage logging.
 - Create a view (`vw_execution_log`) for querying execution history.
-
----
 
 ## 🧪 Usage
 
@@ -116,8 +110,6 @@ EXEC klog.cleanup_stale_executions;
 
 This will ensure that any processes stuck in the "Running" state in the `execution_log` are updated with a "Failed" status.
 
----
-
 ## 🔎 Query execution history
 
 To view recent execution logs, use the `vw_execution_log` view:
@@ -133,8 +125,6 @@ This will show:
 - The row count before and after execution
 - The delta (difference in row counts)
 - Any optional messages (such as error messages)
-
----
 
 ## 📜 License
 

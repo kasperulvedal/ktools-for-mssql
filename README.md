@@ -1,6 +1,7 @@
 # ktools for MSSQL
 
-**ktools for MSSQL** is a collection of lightweight, modular tools written in T-SQL for Microsoft SQL Server and Azure SQL.  
+**ktools for MSSQL** is a collection of lightweight, modular tools written in T-SQL for Microsoft SQL Server and Azure SQL.
+
 These tools are designed to help data engineers, BI developers, and DBAs manage data processing, observability, and data modeling **without relying on external orchestration frameworks**.
 
 > Think of it as your minimalist utility belt for SQL Server.
@@ -45,3 +46,7 @@ This project is licensed under the [MIT License](./LICENSE). Use freely.
 
 We welcome suggestions and contributions!  
 See [CONTRIBUTING.md](./CONTRIBUTING.md) to get started.
+
+## 👤 Author
+
+Kasper Ulvedal — [ktools for MSSQL](../README.md)
