@@ -27,14 +27,6 @@ Includes:
 - View with durations and delta row counts
 - Useful for troubleshooting, monitoring, and auditing data jobs
 
-### 🧱 [lightweight_dw](./lightweight_dw.md)
-A SQL-first approach to **data warehouse modeling**, using simple schema conventions:
-
-- `dim.` for dimension tables
-- `fact.` for fact tables
-- Naming templates and SCD Type 2 examples
-- Includes surrogate key generator and best practices
-
 ---
 
 ## 🛠 Getting Started
@@ -73,4 +65,3 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) to get started.
 =======
 # ktools-for-mssql
 Modular SQL Server toolkit for logging, bulk insert, and lightweight data warehousing. Built in pure T-SQL for Azure SQL and beyond.
->>>>>>> origin/main
